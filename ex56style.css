@@ -1,0 +1,27 @@
+/* Position absolute  */
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  position: static;
+}
+
+.one {
+  background: blue;
+}
+
+.two {
+  background: green;
+}
+
+.special {
+  background: lightcoral;
+  font-size: 27px;
+  position: absolute;
+  /* top-0 with absolute will make
+   (I AM Absolute) move to top right
+   cornor of screen 
+   */
+  top: 0;
+  right: 0;
+}

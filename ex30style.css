@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+.block {
+  background: blue;
+  color: white;
+}
+
+/* Inline elements: Does not start new line and only take up as much as content space is necessary*/
+.inline {
+  background: green;
+  color: white;
+}

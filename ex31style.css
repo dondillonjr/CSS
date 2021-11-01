@@ -1,0 +1,72 @@
+body {
+  /* inline element put in center */
+  text-align: center;
+}
+/* block margin default left */
+.block {
+  background: blue;
+  color: white;
+  /* box text is in */
+  width: 150px;
+}
+
+/* Inline elements: Does not start new line and only take up as much as content space is necessary*/
+.inline {
+  background: red;
+  color: white;
+}
+/*****block margin auto = center text box *******/
+.block2 {
+  background: blue;
+  color: white;
+  width: 150px;
+  /* 3 is top & bottom , auto - left,right centers text*/
+  margin: 3px auto;
+}
+
+/* Inline elements: Does not start new line and only take up as much as content space is necessary*/
+.inline2 {
+  background: green;
+  color: white;
+}
+/**********block margin auto - centers text **********/
+.block3 {
+  background: blue;
+  color: white;
+  width: 150px;
+  /* margin 0 makes text boxes sit on top of each other */
+  /* top & bottom = 0 ,  auto -left,right centers text */
+  margin: 0 auto;
+}
+
+/* Inline elements: Does not start new line and only take up as much as content space is necessary*/
+.inline3 {
+  background: gray;
+  color: white;
+}
+/***********block margin left ******************/
+.block4 {
+  background: blue;
+  color: white;
+  width: 150px;
+  margin-right: auto;
+}
+
+/* Inline elements: Does not start new line and only take up as much as content space is necessary*/
+.inline4 {
+  background: brown;
+  color: white;
+}
+/***********block margin left ******************/
+.block5 {
+  background: blue;
+  color: white;
+  width: 150px;
+  margin-left: auto;
+}
+
+/* Inline elements: Does not start new line and only take up as much as content space is necessary*/
+.inline5 {
+  background: brown;
+  color: white;
+}

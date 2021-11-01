@@ -1,0 +1,24 @@
+/* 
+    transform:  
+    scale() - increases size in X or Y direction or both 
+    Rotate() - rotates object on Z, X or Y axis
+ */
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  /* transform: scaleX(30px); */
+  transform: scaleX(0.5);
+}
+.two {
+  background: green;
+  transform: scaleY(2);
+}
+.three {
+  background: blue;
+  transform: scale(1.5, 1.5);
+}

@@ -1,0 +1,13 @@
+/* CSS box-sizing */
+
+a {
+  font-size: 60px;
+  background: red;
+
+  /* 30 pixel margin - around each link */
+  margin: 30px;
+
+  /* inline block allows you to create space */
+  /* around inline elements */
+  display: inline-block;
+}

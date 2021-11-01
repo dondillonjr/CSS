@@ -1,0 +1,14 @@
+/* Inherance */
+/* last rule is applied */
+p {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+/* universal selector */
+* {
+  color: red;
+}

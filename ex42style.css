@@ -1,0 +1,50 @@
+/* background-attachment */
+/* background-position 
+Change position of background image */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  /* vh = view height */
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.big-img {
+  background: url(../images/alien-city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* attachment (fixed) - text is moving 
+  while picture is not moving via mouse */
+  background-attachment: fixed;
+}
+
+.small-img {
+  border: 12px solid green;
+  background: url(../images/park.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* attachment (fixed) - text is moving 
+  while picture is not moving via mouse */
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url(../images/alien-city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* attachment (fixed) - text is moving 
+  while picture is not moving via mouse */
+  background-attachment: fixed;
+}

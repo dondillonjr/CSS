@@ -1,0 +1,29 @@
+/* rgb =  valurs 0-255 red green blue */
+/* rgba = values 0-1 opacity-transparency */
+/* hex color = values 123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+/* #FF0000 - Red
+/* #00FF00 - Green
+/* color properties */
+/* color background-colors */
+/* using header element and id's */
+#first {
+  background-color: rgb(124, 102, 255);
+  /* color: #bcbdc0; */
+}
+#second {
+  color: rgb(51, 94, 53);
+  background: olive;
+}
+#third {
+  color: blue;
+  background: rgba(134, 133, 36, 0.842);
+}
+#fourth {
+  color: #ff0000;
+}
+h3 {
+  color: #d7ebba;
+}
+body {
+  background: salmon;
+}

@@ -1,0 +1,32 @@
+/* Unit using (em) Relative value */
+/*Parent of Relative Header is Div */
+/*parent - div = 10 */
+/* Div=10px, 1em inherates DIV */
+/* 1em now = 10px (10*2=20px) */
+
+div {
+  font-size: 10px;
+}
+/* 1em now = 10px (10*2=20px) */
+/* Header Relative will be same size */
+/* Header Absolue */
+.relative {
+  font-size: 2em;
+}
+
+/*absolute header=20px */
+.absolute {
+  font-size: 20px;
+}
+
+/* em=10px - 10*3=30px */
+/* Header Relative2 will be */
+/* smaller than Header Absolue2 */
+.relative2 {
+  font-size: 3em;
+}
+
+/*absolute header=20px */
+.absolute2 {
+  font-size: 20px;
+}

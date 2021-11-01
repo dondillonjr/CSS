@@ -1,0 +1,21 @@
+/* hover pseudo element */
+/* link  pseudo element */
+/* actived pseudo style element */
+/* visited pseudo style element */
+/* hover - move mouse over link to see */
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: tomato;
+}
+
+a:hover {
+  color: violet;
+}
+
+a:active {
+  color: green;
+}

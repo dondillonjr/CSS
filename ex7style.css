@@ -1,0 +1,14 @@
+/* using class */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+div {
+  color: green;
+  background: gray;
+}
+ {
+  text-transform: uppercase;
+}

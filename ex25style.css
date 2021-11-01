@@ -1,0 +1,29 @@
+/* CSS BOX MODEL Padding */
+
+/* selector for heading 1 */
+h1 {
+  background: red;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.one {
+  /* 50 all around */
+  padding: 50px;
+  background: blue;
+}
+
+.two {
+  /* top=30, bottom=30 */
+  /*left=60, right=60 */
+  padding: 30px 60px;
+  background: green;
+}
+
+.three {
+  /* top=20, right=40 bottom= 60 left=10 */
+  padding: 20px 40px 60px 10px;
+  background: yellow;
+}

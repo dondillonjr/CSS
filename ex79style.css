@@ -1,0 +1,52 @@
+/* 
+  Transition 0 = 100%
+  Animation 0 1% 2% ... 100%
+*/
+
+div {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+}
+
+.transition {
+  background: red;
+  transition: all 2s linear;
+}
+
+.transition:hover {
+  background: yellow;
+  color: black;
+  transform: translateX(100px);
+}
+
+.automation {
+  background: green;
+  /* long hand notation */
+  /*animation-name: move;*/
+  /*animation-duration: 10s;*/
+  /*animation-iteration-count: 2;*/
+
+  /* shorthand notation */
+  animation: move 5s infinite;
+}
+
+/** for Animation use @keyframes */
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: red;
+  }
+  75% {
+    transform: translateX(-100px);
+    background: purple;
+  }
+  100% {
+    transform: translateX(20px);
+    background: goldenrod;
+  }
+}

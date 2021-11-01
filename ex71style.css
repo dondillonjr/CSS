@@ -1,0 +1,24 @@
+/* Root element of document 
+    html element
+    general styles
+    css variables
+*/
+
+:root {
+  /* background: red; */
+  font-size: 150%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.absolute {
+  font-size: 24px;
+}
+
+/* 1rem = 16px */
+.responsive {
+  font-size: 24px;
+  font-size: 1.5rem;
+}

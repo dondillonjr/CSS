@@ -1,0 +1,40 @@
+/* CSS BOX MODEL Padding Margin Border */
+
+/* selector for heading 1 */
+h1 {
+  background: red;
+  /* 20 pixels all around */
+  padding: 20px;
+  margin-top: 0px;
+  margin-right: 60px;
+  border-style: solid;
+}
+/* class */
+.one {
+  /* 20 pixels all around */
+  padding: 20px;
+  background: blue;
+  margin-left: 30px;
+  border-style: dashed;
+  border-width: 10px;
+  border-color: red;
+}
+
+.two {
+  /* 20 pixels all around */
+  padding: 20px;
+  background: green;
+  margin-bottom: 0;
+  /* border width=10, style=solid color=green */
+  border: 10px dotted orange;
+}
+
+.three {
+  /* 20 pixels all around */
+  padding: 20px;
+  background: yellow;
+  margin-top: 0;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: slateblue;
+}

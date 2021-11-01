@@ -1,0 +1,47 @@
+/* 
+transition: change over time
+transition-property:
+transition-duration:
+transition-delay:
+*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+/** background will change in = 4sec
+    hover delay is = 2sec
+
+    transition works with hover 
+  */
+.three {
+  background: blue;
+
+  transition: background 4s 2s, bordor-radius 5s 2s;
+}
+.three:hover {
+  border-radius: 50%;
+  background: coral;
+}
+
+.four {
+  background: slategray;
+  /* short cut notation
+     duration = 4 delay=5 
+       After 5sec
+       border-radius & background 
+       are launched
+    */
+  transition: all 4s 5s;
+}
+.four:hover {
+  border-radius: 50%;
+  background: coral;
+}

@@ -1,0 +1,14 @@
+/* Block: Top Bottom Margin Respected 
+   Inline: Top Bottom Margin Not Respected
+   Mobile Navbar
+   list-style-type:property
+   descendant selectors
+*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/** select all items of list */
+ul li {
+  list-style-type: upper-roman;
+}

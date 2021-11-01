@@ -1,0 +1,31 @@
+/*
+display: none
+opacity: 0
+visibility:hidden;
+*/
+div {
+  background: blue;
+  margin: 10px;
+  color: white;
+}
+
+.none {
+  /* makes div element none disapear */
+  display: none;
+}
+
+/****** opacity -  default = 1 ***/
+/* lower opacity value - the less visiable element is */
+.opacity-0 {
+  /* will make Div element "opacity-0" not show */
+  opacity: 0;
+}
+.opacity-5 {
+  /* smaller the opacity value, the 
+     less visiable the element is */
+  opacity: 0.3;
+}
+/********** visibility *** default = visible ***********/
+.visibility {
+  visibility: hidden;
+}

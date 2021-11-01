@@ -1,0 +1,17 @@
+/* hover - move mouse over paragraph to see */
+p:hover {
+  color: red;
+  font-size: 20px;
+}
+/* hover - move mouse over paragraph to see */
+.header:hover {
+  background: green;
+  color: white;
+}
+
+/* hover - move mouse over link to see */
+/* see underline disappear when moving mouse over link */
+a:hover {
+  text-decoration: none;
+  color: red;
+}

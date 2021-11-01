@@ -1,0 +1,21 @@
+/* static position */
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.one {
+  background: blue;
+}
+
+.two {
+  background: green;
+  text-align: left;
+}
+
+.special {
+  background: lightcoral;
+  font-size: 20px;
+}

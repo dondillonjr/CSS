@@ -1,0 +1,42 @@
+/* background-gradient - allow background images to be overlaided */
+
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;]
+}
+
+.one {
+    /* gradually changes color from red to green */
+    background: linear-gradient(red, green);
+}
+
+.two {
+    /* to top = opposite (top - green going to red ) */
+    
+    background: linear-gradient(to top, blue, red, green);
+}
+
+.three {
+    /* gradually changes color from red to green */
+    background: linear-gradient(150deg, blue, green);
+}
+
+.four {
+    /* gradually changes color from red to green */
+    background: linear-gradient(to top left, blue, green);
+}
+.five {
+    /* gradually changes color from red to green */
+    background: linear-gradient(to top right, green, blue);
+}
+
+.six {
+    /* gradually changes color from light gray to dark gray */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+}
+.seven {
+    /* gradually changes color from dark gray on left to light gray  on right*/
+    background: linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+}

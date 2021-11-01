@@ -1,0 +1,66 @@
+/* 
+transition: change over time
+transition-property:
+transition-duration:
+transition-delay:
+*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+/** color of box will change in 4sec 
+as mouse hovers over box!
+
+border-radius changes instancely to round object! 
+*/
+.three {
+  background: blue;
+  transition-property: background;
+  transition-duration: 4s;
+}
+.three:hover {
+  border-radius: 50%;
+}
+
+/** color of box changes in 4sec 
+as mouse hovers over box!
+
+border-radius changes in 2sec making box
+rounded!
+*/
+.four {
+  background: purple;
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+}
+.four:hover {
+  border-radius: 50%;
+}
+
+/** 
+All actions on box are delayed for 4 secs
+color of box changes in 4sec 
+as mouse hovers over box!
+
+border-radius changes in 2sec making box
+rounded!
+*/
+.five {
+  background: slategrey;
+  transition-property: background, border-radius;
+  transition-duration: 3s, 2s;
+  transition-delay: 4s;
+}
+.five:hover {
+  border-radius: 50%;
+}

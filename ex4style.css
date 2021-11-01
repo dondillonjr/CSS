@@ -1,0 +1,19 @@
+/* CSS Rule */
+
+/*Has 2 selector elements - h1 and p */
+h1 {
+  color: blue;
+  font-size: 3rem;
+}
+p {
+  color: gray;
+}
+/* 
+css rule 
+h1 = selectors 
+declaration block = {}
+property = color, font-size, ect
+property syntax:  color:value (color: blue;)
+property has delimitor = ;
+
+*/

@@ -1,0 +1,27 @@
+/* pseudo elements:: before ::after CONTENT not element
+       content: ''  --- required
+       img --- does not work
+
+       insert html dynamicly 
+ */
+
+/* will inject contect "hello" inside of html.
+Can be seen using "Browser Developer Tools
+*/
+p::before {
+  content: "hello ";
+  display: block;
+  background: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+p::after {
+  content: " after";
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+  display: block;
+  background: black;
+}

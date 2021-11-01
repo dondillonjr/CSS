@@ -1,0 +1,18 @@
+/* Group Selectors Example */
+#myheading {
+  color: green;
+  background: wheat;
+}
+
+#myheading2 {
+  color: tomato;
+  background: pink;
+}
+body {
+  color: red;
+}
+
+h1,
+h2 {
+  color: blue;
+}

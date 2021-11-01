@@ -1,0 +1,22 @@
+/* 
+    transform:  
+    Rotate() - rotates object on Z, X or Y axis
+ */
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: rotateZ(130deg);
+}
+.two {
+  background: green;
+  transform: rotateY(91deg);
+}
+.three {
+  background: blue;
+  transform: rotateX(271deg);
+}

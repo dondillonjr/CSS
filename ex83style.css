@@ -1,0 +1,38 @@
+/*
+    text-shadow
+    box-shadow
+
+    x-axis, y-axis, blur, color
+*/
+
+.one {
+  text-shadow: 8px 1px 3px red;
+}
+.two {
+  text-shadow: 1px 8px 3px red;
+}
+.three {
+  text-shadow: 1px 1px 8px red;
+}
+.four {
+  /* came from css3 text shadow generator */
+  text-shadow: -37px -15px 3px rgba(150, 150, 150, 1);
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  /* x-axis, y-axis, blur, color */
+  /*box-shadow: 3px 5px 5px green;*/
+  transition: all 0 0.5s linear;
+}
+
+/* move mouse to box to see shadow */
+.box:hover {
+  /* content came from Box Shadow Css Generator */
+  box-shadow: 106px 41px 0px 4px rgba(72, 19, 19, 0.3);
+  -webkit-box-shadow: 106px 41px 0px 4px rgba(72, 19, 19, 0.3);
+  -moz-box-shadow: 106px 41px 0px 4px rgba(72, 19, 19, 0.3);
+}

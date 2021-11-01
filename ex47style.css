@@ -1,0 +1,32 @@
+/* Note image is larger than parent (div) 
+   use scroll bar on page to see!
+*/
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+}
+
+/* 
+  Image is to big for parent (div) - use overflow - use scroll bar on page to see!
+  */
+.banner2 {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.one {
+  float: right;
+}
+
+.two {
+  float: left;
+  height: 1000px;
+}
+
+/* Makes paragraph start on new line  
+   below both image pictures.
+ */
+p {
+  clear: both;
+}

@@ -1,0 +1,14 @@
+/* CSS List-style property & descendent selectors */
+/* Block Element 
+*/
+
+div {
+  background: blue;
+  color: white;
+  /* distance text to block edge */
+  padding: 15px;
+
+  /* margin - from edge of screen (60px - left,right) */
+  /* margin - from edge of screen (60px - top,bott0m) */
+  margin: 10px;
+}

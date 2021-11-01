@@ -1,0 +1,25 @@
+/*
+ Google Fonts - import google fonts
+ font-weight
+ font-style
+*/
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+body {
+  font-family: "Homemade Apple", cursive;
+}
+
+.main {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.one {
+  font-weight: bold;
+}
+
+.two {
+  font-weight: lighter;
+  font-style: oblique;
+}
+.subheading {
+  font-weight: normal;
+}

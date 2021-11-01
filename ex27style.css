@@ -1,0 +1,42 @@
+/* CSS BOX MODEL 
+BORDER-RADIUS
+Negative Margin
+*/
+
+/* selector for heading 1 */
+h1 {
+  background: red;
+  /* 20 pixels all around */
+  padding: 20px;
+  border: 5px solid black;
+  /* curves ends */
+  border-radius: 20px;
+}
+/* class Using Negative Margin */
+.one {
+  /* 20 pixels all around */
+  padding: 20px;
+  background: blue;
+  border: 20px dashed purple;
+  border-radius: 50%;
+  /* negative margin - pulls 
+     into other element */
+  margin-top: -50px;
+}
+
+.two {
+  /* 20 pixels all around */
+  padding: 20px;
+  background: green;
+  border: 10px dotted orange;
+}
+
+.three {
+  /* 20 pixels all around */
+  padding: 20px;
+  background: yellow;
+  margin-top: 0;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: slateblue;
+}

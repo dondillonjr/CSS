@@ -1,0 +1,19 @@
+/* Descendant & Child Combinators */
+
+div h1 {
+  color: red;
+}
+/* direct children of div */
+/* div direct child */
+div > h1 {
+  color: blue;
+}
+
+/* decendants is all h1's */
+.header h1 {
+  color: green;
+}
+/* get header direct child */
+.header > h1 {
+  color: orange;
+}

@@ -1,0 +1,25 @@
+/* absolute value is 30px */
+h1 {
+  font-size: 30px;
+  width: 200px;
+  background: #bcbdc0;
+}
+
+h2 {
+  font-size: 30px;
+  width: 20px;
+  /*background: #bcbdc0;*/
+}
+/* absolute value is 50px */
+.outter {
+  width: 300px;
+  height: 50px;
+  background-color: blue;
+}
+
+/* relative value is % */
+.inner {
+  width: 40%;
+  height: 60%;
+  background: red;
+}

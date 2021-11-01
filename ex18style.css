@@ -1,0 +1,23 @@
+/* 
+Use cal function - calc() 
+Perform math operation + - * /
+mix and match values
+*/
+
+* {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  background: red;
+  /*must use scroll bar to see it all */
+  /* min-height: 100vh;*/
+
+  /*shows all of banner with out scroll bar used*/
+  min-height: calc(100vh - 100px);
+}

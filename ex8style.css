@@ -1,0 +1,12 @@
+/* using class with div and span*/
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+span {
+  text-transform: uppercase;
+}

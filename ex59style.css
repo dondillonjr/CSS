@@ -1,0 +1,42 @@
+/*
+     Media Queries 
+        Responsive Design
+        Style Elements on Different Screen Sizes
+        min-width: --- starting from 
+        max-width: --- up to
+        Mobile First   
+        
+        Make changes to screen as it gets bigger: 
+*/
+
+body {
+  background: yellow;
+}
+.banner {
+  background: blue;
+  border-radius: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* 
+  Change things to the screen as it gets bigger:
+  Use rules below up to width 560:
+  Higher that 560 use above yellow, ect
+  */
+@media screen and (max-width: 560px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}

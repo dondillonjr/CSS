@@ -1,0 +1,21 @@
+/* Unit using (em) Relative value */
+/* note: 1em = default = 16px */
+/* 16 * 2 = 32px */
+/* so both header text are same size */
+
+.relative {
+  font-size: 2em;
+}
+
+.absolute {
+  font-size: 32px;
+}
+/* 1em=16px  3em=16*3=78px  
+/* Header relative2 will be biger that absolute2 */
+.relative2 {
+  font-size: 3em;
+}
+
+.absolute2 {
+  font-size: 32px;
+}

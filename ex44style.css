@@ -1,0 +1,73 @@
+/*  Allows a image overlay via mouse scroll using linear grading */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  /* vh - view height */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+
+.banner {
+  background: url(../images/alien-city.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/park.jfif) center/cover no-repeat fixed;
+}
+.colorzilla {
+  /*  grabbed /css code from Ultimate CSS        
+      Gradient Generator ColorZilla.com 
+
+   Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8fc800+18,8fc800+75,8fc800+76,8fc800+76,8fc800+77,8fc800+77,8fc800+77,8fc800+77,8fc800+77,8fc800+77,8fc800+78,8fc800+78,8fc800+79,8fc800+79,8fc800+80,8fc800+80&0.24+30,1+85 */
+  background: -moz-linear-gradient(
+    left,
+    rgba(143, 200, 0, 0.24) 18%,
+    rgba(143, 200, 0, 0.24) 30%,
+    rgba(143, 200, 0, 0.86) 75%,
+    rgba(143, 200, 0, 0.87) 76%,
+    rgba(143, 200, 0, 0.88) 77%,
+    rgba(143, 200, 0, 0.9) 78%,
+    rgba(143, 200, 0, 0.91) 79%,
+    rgba(143, 200, 0, 0.93) 80%,
+    rgba(143, 200, 0, 1) 85%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(143, 200, 0, 0.24) 18%,
+    rgba(143, 200, 0, 0.24) 30%,
+    rgba(143, 200, 0, 0.86) 75%,
+    rgba(143, 200, 0, 0.87) 76%,
+    rgba(143, 200, 0, 0.88) 77%,
+    rgba(143, 200, 0, 0.9) 78%,
+    rgba(143, 200, 0, 0.91) 79%,
+    rgba(143, 200, 0, 0.93) 80%,
+    rgba(143, 200, 0, 1) 85%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(143, 200, 0, 0.24) 18%,
+    rgba(143, 200, 0, 0.24) 30%,
+    rgba(143, 200, 0, 0.86) 75%,
+    rgba(143, 200, 0, 0.87) 76%,
+    rgba(143, 200, 0, 0.88) 77%,
+    rgba(143, 200, 0, 0.9) 78%,
+    rgba(143, 200, 0, 0.91) 79%,
+    rgba(143, 200, 0, 0.93) 80%,
+    rgba(143, 200, 0, 1) 85%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d8fc800', endColorstr='#8fc800',GradientType=1 ); /* IE6-9 */
+}

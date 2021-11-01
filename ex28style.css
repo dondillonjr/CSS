@@ -1,0 +1,43 @@
+/* CSS BOX MODEL 
+outline
+offset
+*/
+
+/* class */
+.button {
+  margin: 3rem;
+}
+
+a {
+  background: green;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: red;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* 0=top,bottom */
+  /* 20=left,right */
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.2rem solid #222;
+}
+#two {
+  /*
+    outline-width: 0.2rem;
+    outline-style: dashed;
+    outline-color: #222; 
+    outline: 0.2rem dashed #222; */
+  outline: 0.2rem dashed #222;
+}
+#three {
+  outline: 0.2rem dashed #222;
+  /*Note border is moved 10px from element*/
+  outline-offset: 20px;
+}
+#four {
+  outline: 0.2rem dashed #222;
+  /*Note border is moved 10px inside element*/
+  outline-offset: -20px;
+}

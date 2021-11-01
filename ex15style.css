@@ -1,0 +1,36 @@
+/* Unit using (rem) Relative value */
+/* Relative Header - rem depends on */
+/* root of document-HTML whos */
+/* fontSize 32*/
+/* rem = follows htmlSize as root */
+/* rem = 32px */
+html {
+  font-size: 32px;
+}
+div {
+  font-size: 40px;
+}
+
+/* rem = follows htmlSize root */
+/* documentHTMLSize=32 as base */
+/* rem = 32px * 2 = 64pix */
+/* Note */
+/* Header Relative will be same */
+/* size as Header Absolute */
+.relative {
+  font-size: 2rem;
+}
+
+.absolute {
+  font-size: 64px;
+}
+
+/* Header Relative will be */
+/* larger than Header Absolute */
+.relative2 {
+  font-size: 3rem;
+}
+
+.absolute2 {
+  font-size: 64px;
+}

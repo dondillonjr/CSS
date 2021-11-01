@@ -1,0 +1,13 @@
+/* Note image is larger than parent (div) 
+    Image is to big for parent (div) - use overflow - use scroll bar on page to see!
+    */
+.banner2 {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.one {
+  float: right;
+  margin-left: 50px;
+}

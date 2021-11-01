@@ -1,0 +1,12 @@
+/*
+font-size font-family
+serif, sans-serif, cursive, fantasy, monospace
+*/
+body {
+  /*font stack, if CourierNew not supported use Courier, else Courier not supported use monospace */
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

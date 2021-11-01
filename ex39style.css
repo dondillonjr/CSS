@@ -1,0 +1,72 @@
+div {
+  height: 300px;
+  color: black;
+}
+/* only second div rule is used */
+div {
+  height: 200px;
+  color: red;
+  /* only second height property is used */
+  height: 150px;
+}
+.big-img {
+  background: url(../images/alien-city.jpg);
+}
+.big2-img {
+  background: url(../images/alien-city.jpg);
+  background-repeat: round;
+}
+.big3-img {
+  background: url(../images/alien-city.jpg);
+  background-repeat: round;
+  background-size: cover;
+}
+.small-img {
+  background: url(../images/park.jfif);
+  /* background-repeat - repeat used by default */
+  background-repeat: repeat;
+}
+
+.small2-img {
+  background: url(../images/park.jfif);
+  /* background-repeat - turn repeat off */
+  background-repeat: no-repeat;
+}
+.small3-img {
+  border: 2px dashed red;
+  background: url(../images/park.jfif);
+  /* background-repeat - turn repeat off */
+  background-repeat: repeat-x;
+}
+.small4-img {
+  border: 2px solid black;
+  background: url(../images/park.jfif);
+  /* background-repeat - turn repeat off */
+  background-repeat: repeat-y;
+}
+.small5-img {
+  border: 2px solid black;
+  background: url(../images/park.jfif);
+  /* background-repeat - turn repeat off */
+  background-repeat: space;
+}
+.small6-img {
+  border: 2px solid black;
+  background: url(../images/park.jfif);
+  /* background-repeat - turn repeat off */
+  background-repeat: round;
+}
+.small7-img {
+  border: 2px solid black;
+  background: url(../images/park.jfif);
+  /* background-repeat - turn repeat off */
+  background-repeat: cover;
+}
+.folder-img {
+  background: url(../images/danist-d3OaAYs30tc-unsplash.jpg);
+}
+.folder2-img {
+  background: url(../images/danist-d3OaAYs30tc-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

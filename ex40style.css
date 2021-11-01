@@ -1,0 +1,32 @@
+/* background-position */
+div {
+  height: 500px;
+  color: red;
+}
+
+.big-img {
+  background: url(../images/alien-city.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.small-img {
+  border: 12px solid red;
+  background: url(../images/park.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.small2-img {
+  border: 12px solid green;
+  background: url(../images/park.jfif);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: top;
+}
+.folder-img {
+  background: url(../images/danist-d3OaAYs30tc-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

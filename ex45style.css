@@ -1,0 +1,22 @@
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+}
+
+/* Puts image on left with paragraph inline
+     next to it. 
+     Last float is used. */
+img {
+  float: left;
+  float: right;
+}
+
+/* Makes paragraph start on new line  
+     below image picture.
+     Last clear is used.
+     Could be used for float left or right */
+p {
+  clear: left;
+  clear: right;
+  clear: both;
+}

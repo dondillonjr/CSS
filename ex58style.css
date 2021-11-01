@@ -1,0 +1,55 @@
+/*
+     Media Queries 
+        Responsive Design
+        Style Elements on Different Screen Sizes
+        min-width: --- starting from 
+        max-width: --- up to
+        Mobile First   
+        
+        Make changes to screen as it gets bigger: 
+*/
+
+body {
+  background: yellow;
+}
+.banner {
+  background: blue;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* 
+Change things on screen as it gets bigger:
+Use above rules yellow when hit 560 use rules below.
+*/
+@media screen and (min-width: 560px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}

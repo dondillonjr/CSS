@@ -1,0 +1,33 @@
+/* CSS Using
+ line-height
+ letter-spacing
+ word-spacing
+ text-transform
+ text-decoration;
+*/
+/* a = the element for a link */
+/* text-decoration - gits rid of underline on link */
+a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.one {
+  line-height: 1.5em;
+}
+
+.two {
+  letter-spacing: 6px;
+  text-decoration: overline;
+}
+
+.three {
+  word-spacing: 20px;
+}
+.four {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+h1 {
+  text-transform: uppercase;
+  text-decoration: line-through;
+}

@@ -1,0 +1,33 @@
+/* 
+    transform: translate(), rotate(), scale(), skew()
+    transition (change over time)
+    animation: (change over time with points)
+*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  /* moves box 20pixels to right */
+  /*transform: translateX(20px); */
+
+  /* moves box 20pixels to left */
+  /*transform: translateX(-20px);*/
+
+  /* moves box 50% of 150pixels to 
+     left.  Will overlay on neighbor
+     box
+   */
+  transform: translateX(50%);
+}
+.two {
+  background: green;
+  transform: translateY(30px);
+}
+.three {
+  background: blue;
+
+  transform: translate(70px, 80px);
+}
